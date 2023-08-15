@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: beige;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    
+}
+
+.nav{
+    font-size: 25px;
+}
+
+
+.fotos-banner{
+    display: inline-block;
+    width: 100%;   
+}
+
+.footer {
+    background-color: rgb(146, 81, 43);
+    position: absolute;
+    bottom: 0;
+    
+}
+.textopagos{
+    padding: 1rem ;
+
+}
+
+.medios{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+
+}
+
+.redes{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: row;
+    list-style-type: square;
+    gap: 30px;
+    right: 0;
+    bottom: 0;
+
+}

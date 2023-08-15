@@ -1,0 +1,21 @@
+$colorfondo: beige;
+
+
+.body{
+    background-color: $colorfondo;
+
+    .nav{
+        font-size: 25px;
+        font-weight: bold;
+        
+        &:hover{
+            color: rgb(168, 15, 15);
+        }
+    }
+
+    .fotos-banner{
+        display: inline-block;
+        width: 100%;   
+    }   
+
+}

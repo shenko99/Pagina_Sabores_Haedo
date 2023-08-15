@@ -1,0 +1,34 @@
+.footer {
+    position:relative;
+    bottom: 0;
+}    
+    .textopagos{
+        padding: 1rem ;
+    
+    }
+
+    .medios{
+        display: flex;
+        flex-direction: row;
+        width: 60px;
+        height: 60px;
+        bottom: 0;
+    }
+ 
+ .redes{
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            flex-direction: row;
+            list-style-type: square;
+            gap: 30px;
+
+        
+        }
+    
+    
+
+
+

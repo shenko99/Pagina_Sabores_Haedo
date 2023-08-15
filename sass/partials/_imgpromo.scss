@@ -1,0 +1,9 @@
+.imgpromo1{
+  @include promoimg(650px,650px,50px);
+}
+
+
+.imgpromo2{
+    @include promoimg(750px,700px,50px);
+
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: beige;
+}
+.body .nav {
+  font-size: 25px;
+  font-weight: bold;
+}
+.body .nav:hover {
+  color: rgb(168, 15, 15);
+}
+.body .fotos-banner {
+  display: inline-block;
+  width: 100%;
+}
+
+.imgmenu, .imgmenu2 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-left: -300px;
+}
+
+.imgpromo1 {
+  width: 650px;
+  height: 650px;
+  padding: 50px;
+}
+
+.imgpromo2 {
+  width: 750px;
+  height: 700px;
+  padding: 50px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+}
+
+.textopagos {
+  padding: 1rem;
+}
+
+.medios {
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+}
+
+.redes {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  flex-direction: row;
+  list-style-type: square;
+  gap: 30px;
+}
+
+.titulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+.titulo .titulo2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+.titulo .titulo2 .texto {
+  font-size: large;
+}/*# sourceMappingURL=style.css.map */
